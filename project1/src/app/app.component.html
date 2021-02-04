@@ -1,0 +1,20 @@
+<h1>Test Below Operations</h1><hr><hr>
+
+<!-- leap year -->
+<h3>Enter year to check it is Leap year or Not !!</h3>
+<label for="year">Enter Year : </label>
+<input #year type="text" name="year" />
+<br><br>
+<button (click)="checkYear(year.value)">Click to Check Leap Year or Not</button>
+<br><br>
+<span>{{ ans }}</span><hr>
+
+<!-- String length -->
+<h3>Enter String to check it's length !!</h3>
+<label for="str">Enter Year : </label>
+<input #str type="text" name="str" />
+<br><br>
+<button (click)="findLength(str.value)">Click to Check String's length</button>
+<br><br>
+<span>{{ len }}</span><hr>
+
